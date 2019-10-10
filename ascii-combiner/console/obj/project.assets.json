@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "library/1.0.0": {
+      "type": "project",
+      "path": "../library/library.csproj",
+      "msbuildProject": "../library/library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\not-matthias\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\not-matthias\\OneDrive - HTBLA Perg\\5AHIF\\csharp\\homework\\ascii-combiner-exercise-not-matthias\\ascii-combiner\\console\\console.csproj",
+      "projectName": "console",
+      "projectPath": "C:\\Users\\not-matthias\\OneDrive - HTBLA Perg\\5AHIF\\csharp\\homework\\ascii-combiner-exercise-not-matthias\\ascii-combiner\\console\\console.csproj",
+      "packagesPath": "C:\\Users\\not-matthias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\not-matthias\\OneDrive - HTBLA Perg\\5AHIF\\csharp\\homework\\ascii-combiner-exercise-not-matthias\\ascii-combiner\\console\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\not-matthias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\not-matthias\\OneDrive - HTBLA Perg\\5AHIF\\csharp\\homework\\ascii-combiner-exercise-not-matthias\\ascii-combiner\\library\\library.csproj": {
+              "projectPath": "C:\\Users\\not-matthias\\OneDrive - HTBLA Perg\\5AHIF\\csharp\\homework\\ascii-combiner-exercise-not-matthias\\ascii-combiner\\library\\library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

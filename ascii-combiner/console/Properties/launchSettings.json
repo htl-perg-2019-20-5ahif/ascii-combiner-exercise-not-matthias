@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "console": {
+      "commandName": "Project",
+      "commandLineArgs": "brokenHeight1.txt brokenHeight2.txt"
+    }
+  }
+}
